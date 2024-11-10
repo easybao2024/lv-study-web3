@@ -14,6 +14,19 @@
 				"inputs": [
 					{
 						"internalType": "address payable",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "tesTranser",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
 						"name": "x",
 						"type": "address"
 					}
@@ -52,11 +65,11 @@
 	},
 	"sources": {
 		"solidity-study/solidity-1base/3/AddressDemo.sol": {
-			"keccak256": "0x491573f5f33a91e4534f1dda3d47bf4fddddf1e48a248042497d30641a91802f",
+			"keccak256": "0x97aa6c177b5ac30dceed73a14c1effe9a45f51f96c977057c138a36e4282b99d",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://dd13947ce5692cd11c37e1c78fe0bf2cce7ea3435aea8e045d40fa8e099fc197",
-				"dweb:/ipfs/QmQ4srHPFdhNUQQSGwwgAevsimxJT6PP7xRJm9GGJHQntv"
+				"bzz-raw://bc6da60fe65e73aad95b69f4c2d6943c4d642ebdcdc050c178d8969cfeb1645c",
+				"dweb:/ipfs/QmU8zsSQaUJpjsAhKhXCbYbZ1D4eV2mXWA54zHUY6siT5E"
 			]
 		}
 	},

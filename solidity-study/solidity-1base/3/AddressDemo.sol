@@ -31,10 +31,25 @@ contract AddressDemo{
     }
 
     function testTranser(address payable x) public {
-        address myAddress = address(this);
+        address myAddress = address(this); // this指当前合约, 合约类型可以转换为地址类型
         // 如果当前合约余额>=10 且 x地址的余额< 10 就向x转账10Wei
         if(myAddress.balance >= 10 && x.balance < 10){
             x.transfer(10);
+        }
+    }
+
+    function tesTranser(address payable addr) public {
+        address myAddr = address(this);
+        if(myAddr.balance >= 10 && addr.balance < 10){
+            addr.transfer(10);
+
+            // x.call{value:1 ether}("");
+            // 表示调用函数register函数 同时存入1 eth
+            address(this).call{value:1 ether}(abi.encodeWithSignature("register(string)", "myName"));
+            // 表示 调用函数register 只有在gas 有10000时才可以使用
+            address(this).call{gas:10000}(abi.encodeWithSignature("register(string)","myName"));
+            // 表示 调用函数register 只有在 gas有100000时才可以使用, 并同时存入1 ether
+            address(this).call{gas:100000, value:1 ether}(abi.encodeWithSignature("register(string)","myName"));
         }
     }
 
