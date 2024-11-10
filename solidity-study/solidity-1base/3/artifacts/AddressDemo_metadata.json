@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "x",
+						"type": "address"
+					}
+				],
+				"name": "testTranser",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity-study/solidity-1base/3/AddressDemo.sol": "AddressDemo"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity-study/solidity-1base/3/AddressDemo.sol": {
+			"keccak256": "0x491573f5f33a91e4534f1dda3d47bf4fddddf1e48a248042497d30641a91802f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://dd13947ce5692cd11c37e1c78fe0bf2cce7ea3435aea8e045d40fa8e099fc197",
+				"dweb:/ipfs/QmQ4srHPFdhNUQQSGwwgAevsimxJT6PP7xRJm9GGJHQntv"
+			]
+		}
+	},
+	"version": 1
+}

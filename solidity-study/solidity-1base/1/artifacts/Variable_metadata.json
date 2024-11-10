@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					}
+				],
+				"name": "sum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity-study/solidity-1base/1/Variable.sol": "Variable"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity-study/solidity-1base/1/Variable.sol": {
+			"keccak256": "0xefcd44bb9526618f8265c79a48aab82a0c2d86c819447ff27fdc0c40bbd6f699",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://7857c345a3d75c851e5f6955ce71b7fe9a3d80f4a652889ab3fe2f395eaa37ac",
+				"dweb:/ipfs/QmYKz5FNRKANx6V6pGfcBJkY9vDszApMvZfJcGHrFwVsKU"
+			]
+		}
+	},
+	"version": 1
+}

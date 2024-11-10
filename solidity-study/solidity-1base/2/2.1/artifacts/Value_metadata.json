@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "addValue",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getTokenBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tokenBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity-study/solidity-1base/2/2.1/Value.sol": "Value"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity-study/solidity-1base/2/2.1/Value.sol": {
+			"keccak256": "0x4fe6201c7f879bbff74d6e9e5c50e370765202dd7f123faa9afa2645c2cec71b",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://cc746064e9f9ed8e30c7507d1c099e4aa33dfb13cb72fb9d8937183e11b7da60",
+				"dweb:/ipfs/QmP57JnUU5bQLhPeFg9Egr6TRfJNM8ATYXYA6XCEd6A98a"
+			]
+		}
+	},
+	"version": 1
+}
