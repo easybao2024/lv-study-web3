@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "tryCatchTest",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tryCatchWithRevert",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity-1base/9/EventDemo.sol": "TryCatchExample"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity-1base/9/EventDemo.sol": {
+			"keccak256": "0x194c324b1d1bc95c82ec7f13ba9cb43e05b7a6b9963b5bda2ed59126dea72970",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://fd022efca92e8d877061fed4a42a8a28a97ec0b51fc66008251b256f76120f8d",
+				"dweb:/ipfs/QmWF9FeTgRaeZpXvW8APnsUjjDApfoxJzxLKMC1bB42ZFc"
+			]
+		}
+	},
+	"version": 1
+}

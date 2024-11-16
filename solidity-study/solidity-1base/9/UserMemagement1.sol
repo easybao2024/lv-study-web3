@@ -12,11 +12,14 @@ contract UserMemagement{
 
     struct TransactionHistory{
         uint256 transactionId; // 交易id
-        address conterpatry; //合约对手地址
+        address fromAddress; // 
+        address toAddress;
         uint256 amount;
         uint256 trans_time;
-    
+        
     }
     mapping(address => User) public users;
     uint256 public trans_id = 0;
+
+
 }
